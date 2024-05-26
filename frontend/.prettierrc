@@ -1,0 +1,28 @@
+{
+    "semi": false,
+    "trailingComma": "es5",
+    "printWidth": 100,
+    "importOrder": [
+      "<THIRD_PARTY_MODULES>",
+      "",
+      "^@src/@types",
+      "^[.](.*)/@types",
+      "^@src/constants$",
+      "^[.](.*)/constants$",
+      "^@src/listener",
+      "^[.](.*)/listener",
+      "^@src/(.*)(Api|Error|Repository|Service|Utils|utils/)",
+      "^[.](.*)/(.*)(Api|Error|Repository|Service|Utils|utils/)",
+      "",
+      "^@src/(.*States?|states?/)",
+      "^[.](.*)/(.*States?|states?/)",
+      "^@src/(.*)(Hooks?|/?hooks?/|/?usecase/|/?use[A-Z])",
+      "^[.](.*)/(.*)(Hooks?|/?hooks?/|/?usecase/|/?use[A-Z])",
+      "",
+      "^@resources/(.*)",
+      "^@src/(.*)",
+      "^[.](.*)"
+    ],
+    "importOrderSeparation": false,
+    "importOrderSortSpecifiers": true
+  }

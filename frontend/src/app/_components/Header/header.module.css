@@ -1,0 +1,38 @@
+.headerWrapper {
+  width: 100%;
+  height: 78px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.itemInlineWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 500px;
+}
+
+.item {
+  font-weight: 200;
+  font-size: 24px;
+  color: black;
+}
+
+.logo {
+  font-family: "Bitter", serif;
+  font-weight: 900;
+  font-size: 30px;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+@media (max-width: 800px) {
+  .itemInlineWrapper {
+    display: none;
+  }
+}

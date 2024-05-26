@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: relative;
+  background: black;
+  min-height: calc(100vh - 78px);
+}
+
+.inlineWrapper {
+  display: inline-flex;
+}
+
+.titleView {
+  padding: 6rem 2rem;
+}
+
+.mainTitleEn {
+  font-family: "Bitter", serif;
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: var(--main-background-color);
+}
+
+.mainTitleEn::selection {
+  color: rgb(139, 0, 0);
+}
+
+.mainTitleKr {
+  font-weight: 100;
+  color: var(--main-background-color);
+}
+
+.mainTitleKr::selection {
+  color: rgb(139, 0, 0);
+}
+
+.mainImageWrapper {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.mainImage {
+  /* padding: 1rem; */
+  /* border: 1px solid black; */
+  border-radius: 20px;
+}
