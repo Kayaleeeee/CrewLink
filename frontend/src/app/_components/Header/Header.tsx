@@ -9,7 +9,7 @@ export const Header = () => {
   ]
   return (
     <header className={styles.headerWrapper}>
-      <div className={styles.logo}>CREW LiNK</div>
+      <div className={styles.logo}>CREW LINK</div>
       <div className={styles.itemInlineWrapper}>
         {menuList.map(({ title, link }, index) => {
           return (

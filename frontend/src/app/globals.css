@@ -1,4 +1,6 @@
 :root {
+  --font-poppins: "Poppins", sans-serif;
+
   --isMobile: 768px;
   --max-width: 1100px;
   --border-radius: 12px;

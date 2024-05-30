@@ -23,8 +23,8 @@
 }
 
 .logo {
-  font-family: "Bitter", serif;
-  font-weight: 900;
+  font-family: var(--font-poppins);
+  font-weight: 500;
   font-size: 30px;
   position: absolute;
   top: 24px;

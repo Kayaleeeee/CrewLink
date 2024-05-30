@@ -12,15 +12,29 @@
   display: inline-flex;
 }
 
+.colummWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .titleView {
   padding: 6rem 2rem;
 }
 
-.mainTitleEn {
-  font-family: "Bitter", serif;
-  font-size: 4rem;
+.linedText {
+  font-family: var(--font-poppins);
   font-weight: 900;
-  letter-spacing: 2px;
+
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.mainTitleEn {
+  font-family: var(--font-poppins);
+  line-height: 1em;
+  font-size: 4rem;
+  font-weight: 700;
   color: var(--main-background-color);
 }
 
@@ -30,6 +44,7 @@
 
 .mainTitleKr {
   font-weight: 100;
+  font-size: 24px;
   color: var(--main-background-color);
 }
 
@@ -48,4 +63,100 @@
   /* padding: 1rem; */
   /* border: 1px solid black; */
   border-radius: 20px;
+}
+
+.secondSection {
+  background: white;
+  padding: 50px 24px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.secondSection_ImageContainer {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+}
+
+.secondSection_image {
+  width: 150px;
+  height: 200px;
+  border-radius: 12px;
+  background: gainsboro;
+}
+
+.secondSection_textContaier {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.section_mainText {
+  font-family: var(--font-poppins);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.section_mainText_white {
+  font-family: var(--font-poppins);
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.section_mainText_lined_white {
+  font-family: var(--font-poppins);
+  font-size: 36px;
+  font-weight: 700;
+
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.section_contentText {
+  margin-top: 24px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.categorySectionWrapper {
+  padding: 50px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.categorySectionWrapper_textContainer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+
+.categorySectionWrapper_cardWrapper {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.categorySectionWrapper_card {
+  display: flex;
+  padding: 60px 30px 50px;
+  border-radius: 8px;
+  width: 100%;
+  border: 1px solid #1e1e1e;
+}
+
+.categorySectionWrapper_card_title {
+  font-family: var(--font-poppins);
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
 }
