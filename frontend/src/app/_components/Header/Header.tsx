@@ -9,15 +9,19 @@ export const Header = () => {
   ]
   return (
     <header className={styles.headerWrapper}>
-      <div className={styles.logo}>CREW LINK</div>
-      <div className={styles.itemInlineWrapper}>
-        {menuList.map(({ title, link }, index) => {
-          return (
-            <Link key={`${title}_${index}`} className={styles.item} href={link}>
-              {title}
-            </Link>
-          )
-        })}
+      <div className={styles.contentWrapper}>
+        <Link href={"/"}>
+          <div className={styles.logo}>CREW LINK</div>
+        </Link>
+        <div className={styles.itemInlineWrapper}>
+          {menuList.map(({ title, link }, index) => {
+            return (
+              <Link key={`${title}_${index}`} className={styles.item} href={link}>
+                {title}
+              </Link>
+            )
+          })}
+        </div>
       </div>
     </header>
   )

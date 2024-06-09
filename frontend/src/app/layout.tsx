@@ -8,7 +8,7 @@ const BitterFont = Bitter({ subsets: ["latin"] })
 const PoppinsFont = Poppins({
   style: "normal",
   subsets: ["latin", "latin-ext"],
-  weight: ["700", "800", "900"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-poppins",
 })
 
